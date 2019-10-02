@@ -6,5 +6,7 @@ namespace Bot.Builder.Community.Adapters.Gap
 {
 	class GapContextExtensions
 	{
+
+
 	}
 }
