@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Builder.Community.Adapt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Builder.Community.Dialogs.Luis", "libraries\Bot.Builder.Community.Dialogs.Luis\Bot.Builder.Community.Dialogs.Luis.csproj", "{2FE9D83B-59AB-4475-BE6F-4803118B1A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Builder.Community.Adapters.DirectLine", "libraries\Bot.Builder.Community.Adapters.DirectLine\Bot.Builder.Community.Adapters.DirectLine.csproj", "{982A4FAC-1397-42A1-95C3-4355408C0B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Builder.Community.Adapters.DirectLine", "libraries\Bot.Builder.Community.Adapters.DirectLine\Bot.Builder.Community.Adapters.DirectLine.csproj", "{982A4FAC-1397-42A1-95C3-4355408C0B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Builder.Community.Adapters.Gap", "libraries\Bot.Builder.Community.Adapters.Gap\Bot.Builder.Community.Adapters.Gap.csproj", "{91B12D15-0140-46A7-82AB-22088CA7815B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,14 @@ Global
 		{982A4FAC-1397-42A1-95C3-4355408C0B3C}.Documentation|Any CPU.Build.0 = Debug|Any CPU
 		{982A4FAC-1397-42A1-95C3-4355408C0B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{982A4FAC-1397-42A1-95C3-4355408C0B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Debug - NuGet Packages|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Debug - NuGet Packages|Any CPU.Build.0 = Debug|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Documentation|Any CPU.Build.0 = Debug|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B12D15-0140-46A7-82AB-22088CA7815B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +291,7 @@ Global
 		{06CECA83-4578-467E-80DD-66C4D0526B9D} = {BF310E8A-8DA1-441F-90E9-DE0E66553048}
 		{2FE9D83B-59AB-4475-BE6F-4803118B1A81} = {08759E28-8592-4EBA-9A07-19A5BED3FB0C}
 		{982A4FAC-1397-42A1-95C3-4355408C0B3C} = {BF310E8A-8DA1-441F-90E9-DE0E66553048}
+		{91B12D15-0140-46A7-82AB-22088CA7815B} = {BF310E8A-8DA1-441F-90E9-DE0E66553048}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FE3B75E-BA2B-45BC-BBF0-DDA8BA10C4F0}
